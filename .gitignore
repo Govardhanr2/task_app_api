@@ -1,0 +1,8 @@
+.idea
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+**/*.tfstate
+**/*.tfstate.backup

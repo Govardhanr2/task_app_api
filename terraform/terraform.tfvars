@@ -1,0 +1,7 @@
+aws_region     = "ap-south-1"
+aws_key_name   = "taskec"
+domain_name    = "testpagespage.space"
+hosted_zone_id = "Z08515713LUCUHGGWXI83"
+repo_url       = "https://github.com/Govardhanr2/task_app_api.git"
+app_subdomain  = "app"
+api_subdomain  = "api"

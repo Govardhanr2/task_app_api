@@ -59,7 +59,7 @@ To successfully run the task_app_api project using docker-compose up, you need t
           * Pull the redis Docker image.
           * Build the Docker images for the api and app services (using their Dockerfiles).
           * Start all three services (redis, api, app) as interconnected containers.
-       * To run the services in the background (detached mode), you can use docker-compose up -d.
+       * To run the services in the background (detached mode), you can use # docker-compose up -d.
        * If you've made changes to the api or app source code and want to rebuild the images, use docker-compose up
          --build.
 

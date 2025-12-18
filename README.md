@@ -1,4 +1,4 @@
-# Mindmeld Devops Exercise
+# 1. Mindmeld Devops Exercise
 
 This exercise is intended to test your knowledge and expertise of devops
 tooling and commonly-used AWS products.
@@ -29,39 +29,44 @@ When you are finished with the exercise, please submit the configuration for
 your solution and any documentation we might need in order to apply that
 configuration.
 
- 2. Prerequisites to Execute docker-compose up
 
-To successfully run the task_app_api project using docker-compose up, you need the following:
+## Local Setup (Docker Compose)
 
-  2.1. Prerequisites
+This section explains how to run the **task_app_api** application locally using Docker Compose.
 
-   1. Install Docker:
-  * You must have Docker and Docker Compose installed and running on your local machine.
-  * For Mac or Windows: Install Docker Desktop (https://www.docker.com/products/docker-desktop). It bundles the
-    Docker Engine, Docker CLI, and Docker Compose.
-  * For Linux: Install the Docker Engine and the Docker Compose plugin.
+## 2. Prerequisites
 
-   2. Project Files:
-  * Ensure you have the complete task_app_api project folder on your machine, including the docker-compose.yml
-    file, and the api and app subdirectories with their respective Dockerfiles.
+To successfully run the `task_app_api` project, ensure you have the following:
 
-  2.2. How to Execute
+1. **Docker Installed**
+   - Docker and Docker Compose must be installed and running on your local machine.
+   - **macOS / Windows:**  
+     Install [Docker Desktop](https://www.docker.com/products/docker-desktop).  
+     It bundles Docker Engine, Docker CLI, and Docker Compose.
+   - **Linux:**  
+     Install Docker Engine and the Docker Compose plugin.
 
-  Once Docker is installed and running, follow these steps:
+2. **Project Files**
+   - Ensure you have the complete `task_app_api` project directory.
+   - The project must include:
+     - `docker-compose.yml`
+     - `api/` directory with its `Dockerfile`
+     - `app/` directory with its `Dockerfile`
 
-   1. Open your terminal or command prompt.
-   2. Navigate to the root directory of the task_app_api project:
-   1     cd task_app_api/
-      
-   4. Run the Docker Compose command:
-   1     docker-compose up
-       * This command will:
-          * Pull the redis Docker image.
-          * Build the Docker images for the api and app services (using their Dockerfiles).
-          * Start all three services (redis, api, app) as interconnected containers.
-       * To run the services in the background (detached mode), you can use # docker-compose up -d.
-       * If you've made changes to the api or app source code and want to rebuild the images, use docker-compose up
-         --build.
+## 2.2. Running the Application
 
-  You will see the logs from all services directly in your terminal. To stop the running services, press Ctrl+C in the
-  terminal where docker-compose up is running.
+Once Docker is installed and running, follow these steps:
+
+1. Open a terminal or command prompt.
+2. Navigate to the root directory of the project (replace the path with your actual location):
+
+   ```bash
+   cd /**/**/task_app_api
+
+
+## 3. Run the Docker Compose Command
+
+To start the application, run the following command in the root directory of your project:
+  
+  ```bash
+ docker-compose up

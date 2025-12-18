@@ -24,7 +24,7 @@ Before you begin, ensure you have the following:
 
 1.  Clone the repository.
 2.  Navigate to the `terraform` directory.
-3.  Create a file named `terraform.tfvars`.
+3.  modify a file named `terraform.tfvars` according to your config.
 4.  Add the following content to the file, replacing the placeholder values with your own:
 
     ```hcl

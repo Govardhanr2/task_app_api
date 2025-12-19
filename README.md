@@ -21,16 +21,17 @@ At minimum, you will need to:
 * host the frontend application and have it communicate with the API
 
 You are free to choose whichever AWS products/services you believe will best
-help you achieve the goal. We expect you to implement a solution using well-
-known infrastructure as code tools, though which of those tools you use is
-entirely up to you.
-
-When you are finished with the exercise, please submit the configuration for
-your solution and any documentation we might need in order to apply that
-configuration.
+help you achieve the goal. 
 
 
-## Local Setup (Docker Compose)
+
+I have Implemented the above task in simplest way which is straight and non exhaustive solution.
+
+## AWS SETUP using Terraform refer - README.md in terraform folder
+
+https://github.com/Govardhanr2/task_app_api/blob/main/terraform/README.md#terraform-aws-docker-app-deployment
+
+## Local Setup (Docker Compose) 
 
 This section explains how to run the **task_app_api** application locally using Docker Compose.
 

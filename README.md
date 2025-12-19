@@ -23,11 +23,15 @@ At minimum, you will need to:
 You are free to choose whichever AWS products/services you believe will best
 help you achieve the goal. 
 
+### Implementation 
 
-
-I have Implemented the above task in simplest way which is straight and non exhaustive solution.
+" To achieve the above, I have Implemented the above task in simplest way which is straight and non exhaustive solution. "
 
 ## AWS SETUP using Terraform refer - README.md in terraform folder
+
+Navigate to terraform folder 
+
+command  " cd task_app_api/terraform "
 
 https://github.com/Govardhanr2/task_app_api/blob/main/terraform/README.md#terraform-aws-docker-app-deployment
 
